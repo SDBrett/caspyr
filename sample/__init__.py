@@ -1,10 +1,11 @@
 """
 
-    The beginnings of a library to programtically interact with the VMC console
-    via REST API and Python
+	The beginnings of a library to programtically interact with the VMC console
+	via REST API and Python
 
-    See readme.md for details on utilization
+	See readme.md for details on utilization
 
 """
 
-from .vmcs import Session, Blueprint, CloudAccount, Deployment, Project, CloudZone, NetworkProfile, DataCollector, StorageProfile, ImageMapping, FlavorMapping
+from .vmcs import Session, Blueprint, CloudAccount, Deployment, Project, CloudZone, NetworkProfile, DataCollector, \
+	StorageProfile, ImageMapping, FlavorMapping
